@@ -1,5 +1,6 @@
 variable "global_tags" {
   type = object({
+    Name = string
     Author      = string
     Environment = string
     Provisioner = string
