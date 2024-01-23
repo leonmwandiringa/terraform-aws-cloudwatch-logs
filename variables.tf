@@ -1,12 +1,17 @@
-variable "global_tags" {
+variable "tags" {
   type = object({
     Name = string
     Author      = string
     Environment = string
     Provisioner = string
     Region      = string
+    Project = string
+    SecurityZone = string
+    TaggingVersion = string
+    BusinessService = string
+    Confidentiality = string
   })
-  description = "base tags required in every resource"
+  description = "base tags for log group"
 }
 
 variable "log_group_name" {
