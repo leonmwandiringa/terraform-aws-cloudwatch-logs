@@ -1,7 +1,5 @@
 # AWS Cloudwatch Logs Terraform module
 
-Terraform module built for Vodacom internal use by the Vodasure team.
-
 ECS configurations includes:
 
 - Log group creation
@@ -51,7 +49,7 @@ No Modules.
 
 ## Authors
 
-Module authored and managed by [Leon_Mwandiringa](https://github.com/leonmwandiringa) from the [Vodasure Team].
+Module authored and managed by [Leon_Mwandiringa](https://github.com/leonmwandiringa) .
 
 ## License
 
